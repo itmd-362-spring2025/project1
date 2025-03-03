@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" media="screen" href="css/meyersreset-and-normalize-form.css">
+  <link rel="stylesheet" media="screen" href="css/screen.css">
+  <title>Sign Up</title>
+</head>
+<body>
+  <h1>GarbageLocator</h1>
+  <h3>Have you ever had trash, but no garbage cans are visibly close?</h3>
+  <p>GarbageLocator is an app designed to locate the nearest garbage can to your location.</p>
+  <p>Let's keep those hands and our planet clean! Join our beta testing list:</p>
+  <form action="/submit" method="post" autocomplete="on">
+    <label for="firstName">First Name: </label>
+    <input type="text" id="firstName" name="firstName" placeholder="Enter your first name here" required>
+    <label for="lastName">Last Name: </label>
+    <input type="text" id="lastName" name="lastName" placeholder="Enter your last name here" required>
+    <label for="email">Email Address: </label>
+    <input type="text" id="email" name="email" placeholder="Enter your email here" required>
+    <label for="phone">Phone Number(123-456-7890): </label>
+    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number here" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+    <label for="preferredContact">What is the best way for us to contact you?</label>
+    <input type="radio" id="preferredContact" name="preferredContact" value="Email">
+    <input type="radio" id="preferredContact" name="preferredContact" value="Phone Number">
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
