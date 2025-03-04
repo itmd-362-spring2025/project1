@@ -10,8 +10,8 @@
 <body>
   <h1>GarbageLocator</h1>
   <h3>Have you ever had trash, but no garbage cans are visibly close?</h3>
-  <p>GarbageLocator is an app designed to locate the nearest garbage can to your location.</p>
-  <p>Let's keep those hands and our planet clean! Join our beta testing list:</p>
+  <h3>GarbageLocator is an app designed to locate the nearest garbage can to your location.</h3>
+  <h3>Let's keep those hands and our planet clean! Join our beta testing list:</h3>
   <form action="/submit" method="post" autocomplete="on">
     <label for="firstName">First Name: </label>
     <input type="text" id="firstName" name="firstName" placeholder="Enter your first name here" required>
@@ -23,8 +23,16 @@
     <input type="tel" id="phone" name="phone" placeholder="Enter your phone number here" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
     <label for="preferredContact">What is the best way for us to contact you?</label>
     <input type="radio" id="preferredContact" name="preferredContact" value="Email">
-    <input type="radio" id="preferredContact" name="preferredContact" value="Phone Number">
+    <label for="Email">Email</label>
+    <input type="radio" id="preferredContact" name="preferredContact" value="PhoneNumber">
+    <label for="PhoneNumber">Phone Number</label>
     <input type="submit" value="Submit">
   </form>
+
+  <h2>Still curious? Try it out yourself!</h2>
+  <p>Nearest garbage near Illinois Insitute of Technology, Stuart Building:</p>
+  <p></p>
+  <!-- 41.838506, -87.627907 -->
+  <input type="submit" value="Demo">
 </body>
 </html>
