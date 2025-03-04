@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   console.log("Script loaded");
-  const demoButton = document.querySelector("demoButton");
+  const demoButton = document.querySelector("#demoButton");
   console.log(demoButton);
   const displayCoordinates = document.getElementById("coordinates");
 
