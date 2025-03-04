@@ -8,3 +8,12 @@ body {
   padding: 5rem;
   border: 10px double #488a57;
 }
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin-bottom: 2.5rem;
+  text-shadow: 3px 3px 0px #bdb3b3;
+  letter-spacing: 0.1em;
+}
