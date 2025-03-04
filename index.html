@@ -28,9 +28,9 @@
       <label for="phone">Phone Number(123-456-7890): </label>
       <input type="tel" id="phone" name="phone" placeholder="Enter your phone number here" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
       <label for="preferredContact">What is the best way for us to contact you?</label>
-      <input type="radio" id="preferredContact" name="preferredContact" value="Email">
+      <input type="radio" id="emailContact" name="preferredContact" value="Email">
       <label for="Email">Email</label>
-      <input type="radio" id="preferredContact" name="preferredContact" value="PhoneNumber">
+      <input type="radio" id="phoneContact" name="preferredContact" value="PhoneNumber">
       <label for="PhoneNumber">Phone Number</label>
       <input type="submit" value="Submit">
     </form>
@@ -38,9 +38,9 @@
 
   <section id="demo">
     <h2>Still curious? Try it out yourself!</h2>
-    <p>Nearest garbage can at [Illinois Insitute of Technology, Stuart Building]:</p>
+    <p>Nearest garbage can at [Illinois Institute of Technology, Stuart Building]:</p>
     <p id="coordinates"></p>
-    <input type="submit" value="Demo">
+    <input type="button" id="demoButton" value="Demo">
   </section>
 
 </body>
