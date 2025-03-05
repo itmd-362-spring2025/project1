@@ -68,7 +68,8 @@ input[type="radio"] {
 
 #radioButtons {
   display:flex;
-  margin: auto;
+  margin: 20px;
+  gap: 15px;
 }
 
 
