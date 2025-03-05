@@ -31,10 +31,12 @@
       <label for="phone">Phone Number(123-456-7890): </label>
       <input type="tel" id="phone" name="phone" placeholder="Enter your phone number here" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
       <label for="preferredContact">What is the best way for us to contact you?</label>
-      <input type="radio" id="emailContact" name="preferredContact" value="Email">
-      <label for="Email">Email</label>
-      <input type="radio" id="phoneContact" name="preferredContact" value="PhoneNumber">
-      <label for="PhoneNumber">Phone Number</label>
+      <div id="radioButtons">
+        <input type="radio" id="emailContact" name="preferredContact" value="Email">
+        <label for="Email">Email</label>
+        <input type="radio" id="phoneContact" name="preferredContact" value="PhoneNumber">
+        <label for="PhoneNumber">Phone Number</label>
+      </div>
       <input type="submit" id="submitButton"value="Submit">
     </form>
   </section>
