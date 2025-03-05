@@ -16,4 +16,14 @@ h1 {
   margin-bottom: 2.5rem;
   text-shadow: 3px 3px 0px #bdb3b3;
   letter-spacing: 0.1em;
+  border: 5px solid black;
+  border-style: ridge;
+}
+
+#mission {
+  background-color: #a0cfe8;
+  width: 75%;
+  padding: 50px; 
+  margin-left: 10%;
+  text-align: center;
 }
