@@ -90,6 +90,10 @@ input[type="radio"] {
 
 #demo {
   text-align: center;
+  background-color: #93cadb;
+  width: 75%;
+  margin-left: 150px;
+  padding: 20px;
 }
 
 #hook {
