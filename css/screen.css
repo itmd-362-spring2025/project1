@@ -57,6 +57,7 @@ input[type="tel"] {
   display: flex;
   width: 25%;
   margin-bottom: 2rem;
+  font-size: 15px; 
 }
 
 input[type="radio"] {
@@ -82,4 +83,5 @@ input[type="radio"] {
   padding: 2px 4px 2px 2px;
   cursor: pointer; 
   font-weight: 100;
+  font-size: 20px; 
 }
