@@ -111,6 +111,8 @@ input[type="radio"] {
 
 .grid {
   display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
 }
 
 @media screen and (min-width: 768px) {
@@ -123,13 +125,13 @@ input[type="radio"] {
     grid-row: 1;
   }
 
-  .box3 {
-    grid-column: 1;
+  .box2 {
+    grid-column: 1 / 2;  
     grid-row: 2;
   }
 
-  .box2 {
-    grid-column: 2;
+  .box3 {
+    grid-column: 2 / 3;  
     grid-row: 2;
   }
 
@@ -137,6 +139,18 @@ input[type="radio"] {
     grid-column: 1 / 3;
     grid-row: 3;
   }
+
+  #mission {
+    width: 90%;
+    height: 30%;
+    margin-left: 3%;
+  }
+
+  input[type="text"],
+  input[type="tel"] {
+    width: 50%;
+  }
+
 
 }
 
