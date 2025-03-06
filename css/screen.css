@@ -9,6 +9,10 @@ body {
   border: 10px groove #488a57;
 }
 
+#logo, #mission, #form, #demo {
+  box-shadow: 5px 5px black; 
+}
+
 #logo {
   text-align: center;
   font-weight: bold;
