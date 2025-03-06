@@ -88,3 +88,19 @@ input[type="radio"] {
   border-color: #868a87;
 }
 
+#demo {
+  text-align: center;
+}
+
+#hook {
+  font-weight: bold; 
+  font-size: 40px;
+}
+
+#garbageIIT {
+  font-size: 20px;
+}
+
+#coordinates {
+  font-size: 20px;
+}
