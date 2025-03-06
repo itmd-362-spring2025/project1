@@ -115,7 +115,39 @@ input[type="radio"] {
   gap: 20px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
+  .box1 {
+    grid-row: 1; 
+  }
+  
+  .box2 {
+    grid-row: 2; 
+  }
+  
+  .box3 {
+    grid-row: 3; 
+  }
+  
+  .box4 {
+    grid-row: 4; 
+  }
+
+  body {
+    font-size: 120%
+  }
+
+  input[type="text"],
+  input[type="tel"] {
+    width: 75%;
+  }
+
+  #form {
+    padding: 75px;
+  }
+  #demo {
+    padding: 50px;
+    margin-left: 3%;
+  }
 
 }
 
