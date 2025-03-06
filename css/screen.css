@@ -9,7 +9,7 @@ body {
   border: 10px groove #488a57;
 }
 
-h1 {
+#logo {
   text-align: center;
   font-weight: bold;
   font-size: 2.5rem;
@@ -108,3 +108,31 @@ input[type="radio"] {
 #coordinates {
   font-size: 20px;
 }
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 1024px) {
+  #logo {
+    grid-column: 1 / 3;
+    grid-row: 1;
+  }
+
+  #mission {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  #form {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  #demo {
+    grid-column: 1 / 3;
+    grid-row: 3;
+  }
+
+}
+
