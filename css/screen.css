@@ -85,5 +85,6 @@ input[type="radio"] {
   font-weight: 100;
   font-size: 20px; 
   border-width: thin thick thick thin;
-  border-color: black;
+  border-color: #5b5e5c;
 }
+
