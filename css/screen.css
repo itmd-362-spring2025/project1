@@ -84,7 +84,7 @@ input[type="radio"] {
   cursor: pointer; 
   font-weight: 100;
   font-size: 20px; 
-  border-width: thin thick thick thin;
-  border-color: #5b5e5c;
+  border-width: thin medium thick medium;
+  border-color: #868a87;
 }
 
