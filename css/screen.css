@@ -59,7 +59,7 @@ input[type="tel"] {
   background-color: #FFFFFF;
   font-family: 'Segoe Print', 'Bradley Hand', Chilanka, TSCu_Comic, casual, cursive;
   display: flex;
-  width: 25%;
+  width: 90%;
   margin-bottom: 2rem;
   font-size: 15px; 
 }
@@ -119,7 +119,7 @@ input[type="radio"] {
   gap: 20px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .box1 {
     grid-row: 1; 
   }
@@ -142,7 +142,7 @@ input[type="radio"] {
 
   input[type="text"],
   input[type="tel"] {
-    width: 75%;
+    width: 90%;
   }
 
   #form {
@@ -184,7 +184,7 @@ input[type="radio"] {
 
   input[type="text"],
   input[type="tel"] {
-    width: 50%;
+    width: 75%;
   }
 
 
