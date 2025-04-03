@@ -96,7 +96,7 @@ input[type="radio"] {
   text-align: center;
   background-color: #93cadb;
   width: 75%;
-  margin-left: 150px;
+  margin-left: 75px;
   padding: 20px;
 }
 
@@ -190,6 +190,7 @@ input[type="radio"] {
   #demo {
     padding: 50px;
     width: 75%;
+    margin-left: 150px;
   }
 }
 
