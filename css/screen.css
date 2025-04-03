@@ -150,7 +150,7 @@ input[type="radio"] {
   }
   #demo {
     padding: 50px;
-    margin-left: 3%;
+    width: 90%;
   }
 
 }
@@ -187,6 +187,9 @@ input[type="radio"] {
     width: 75%;
   }
 
-
+  #demo {
+    padding: 50px;
+    width: 75%;
+  }
 }
 
